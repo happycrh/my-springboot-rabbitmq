@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44b1ad14-4023-4672-8281-9ec2ff9705a6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Server-Maven-Repo" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hALagwGpYxL3fVz2TGbhdjhhTR" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../roc-component-xc-project-management" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33508313" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.happycrh.springbootconsumer.consumer" />
+      <recent name="com.happycrh.springbootproducer.config" />
+      <recent name="com.happycrh.springbootproducer.producer" />
+      <recent name="com.happycrh.cunsumer2.consumer" />
+      <recent name="com.happycrh.springbootproducer.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\ideapro\springbootrabbitmq\cunsumer2\src\main\resources" />
+      <recent name="E:\workspace\ideapro\springbootrabbitmq\springboot-consumer\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootProducerApplication">
+    <configuration name="SpringbootProducerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.happycrh.springbootproducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.happycrh.springbootproducer" />
+      <option name="MAIN_CLASS_NAME" value="com.happycrh.springbootproducer.SpringbootProducerApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootProducerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.happycrh.springbootproducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.happycrh.springbootproducer" />
+      <option name="MAIN_CLASS_NAME" value="com.happycrh.springbootproducer.SpringbootProducerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cunsumer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cunsumer2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.happycrh.cunsumer2.Cunsumer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="springboot-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.happycrh.springbootconsumer.SpringbootConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.happycrh.springbootproducer.SpringbootProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringbootProducerApplicationTests" />
+      <item itemvalue="JUnit.SpringbootProducerApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.Cunsumer2Application" />
+      <item itemvalue="Spring Boot.SpringbootConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringbootProducerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootProducerApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SpringbootProducerApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44b1ad14-4023-4672-8281-9ec2ff9705a6" name="Default Changelist" comment="" />
+      <created>1599449014765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599449014765</updated>
+      <workItem from="1599449016823" duration="15765000" />
+      <workItem from="1599527612334" duration="11540000" />
+      <workItem from="1599613523103" duration="9667000" />
+      <workItem from="1599700389865" duration="1356000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cunsumer2/src/main/java/com/happycrh/cunsumer2/consumer/OrderReceiverFanout.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/producer/TopicSender.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/config/RabbitTemplateConfig.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/config/RabbitTemplateConfig.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/config/RabbitTemplateConfig.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/producer/WokerSender.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
