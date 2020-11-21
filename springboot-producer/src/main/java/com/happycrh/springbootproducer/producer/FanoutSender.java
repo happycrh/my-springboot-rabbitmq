@@ -1,5 +1,6 @@
 package com.happycrh.springbootproducer.producer;
 
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.support.CorrelationData;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ public class FanoutSender {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-
+    AmqpTemplate amqpTemplate;
     //回调函数: confirm确认
 /*    final RabbitTemplate.ConfirmCallback confirmCallback = new RabbitTemplate.ConfirmCallback() {
         @Override

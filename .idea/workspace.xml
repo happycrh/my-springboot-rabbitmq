@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44b1ad14-4023-4672-8281-9ec2ff9705a6" name="Default Changelist" comment="" />
+    <list default="true" id="44b1ad14-4023-4672-8281-9ec2ff9705a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-consumer/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-producer/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-consumer/src/main/java/com/happycrh/springbootconsumer/consumer/WorkerReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-consumer/src/main/java/com/happycrh/springbootconsumer/consumer/WorkerReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-consumer/src/main/java/com/happycrh/springbootconsumer/consumer/WorkerReceiver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-consumer/src/main/java/com/happycrh/springbootconsumer/consumer/WorkerReceiver2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-consumer/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/controller/TController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/controller/TController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/producer/FanoutSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/producer/FanoutSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/producer/WokerSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/producer/WokerSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-producer/src/main/resources/application-dev.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,15 +43,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1hALagwGpYxL3fVz2TGbhdjhhTR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../roc-component-xc-project-management" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-consumer/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33508313" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -47,8 +67,9 @@
       <recent name="com.happycrh.springbootproducer.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\ideapro\springbootrabbitmq\cunsumer2\src\main\resources" />
       <recent name="E:\workspace\ideapro\springbootrabbitmq\springboot-consumer\src\main\resources" />
+      <recent name="E:\workspace\ideapro\springbootrabbitmq\springboot-producer\src\main\resources" />
+      <recent name="E:\workspace\ideapro\springbootrabbitmq\cunsumer2\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +84,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootProducerApplication">
+  <component name="RunManager" selected="Spring Boot.SpringbootConsumerApplication">
+    <configuration name="WokerSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.happycrh.springbootproducer.producer.WokerSender" />
+      <module name="springboot-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.happycrh.springbootproducer.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootProducerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-producer" />
       <extension name="coverage">
@@ -118,6 +152,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.WokerSender" />
       <item itemvalue="JUnit.SpringbootProducerApplicationTests" />
       <item itemvalue="JUnit.SpringbootProducerApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.Cunsumer2Application" />
@@ -126,6 +161,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WokerSender" />
         <item itemvalue="JUnit.SpringbootProducerApplicationTests.contextLoads" />
         <item itemvalue="JUnit.SpringbootProducerApplicationTests" />
       </list>
@@ -144,12 +180,32 @@
       <workItem from="1599449016823" duration="15765000" />
       <workItem from="1599527612334" duration="11540000" />
       <workItem from="1599613523103" duration="9667000" />
-      <workItem from="1599700389865" duration="1356000" />
+      <workItem from="1599700389865" duration="5478000" />
+      <workItem from="1600044909645" duration="591000" />
+      <workItem from="1600136280766" duration="718000" />
+      <workItem from="1600399812905" duration="804000" />
+      <workItem from="1603701040436" duration="4767000" />
+      <workItem from="1603857060179" duration="12444000" />
+      <workItem from="1603934720274" duration="6663000" />
+      <workItem from="1605925326706" duration="7526000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -178,11 +234,6 @@
           <url>file://$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/config/RabbitTemplateConfig.java</url>
           <line>31</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-producer/src/main/java/com/happycrh/springbootproducer/producer/WokerSender.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

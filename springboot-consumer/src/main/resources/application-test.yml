@@ -1,9 +1,9 @@
 ## springboot整合rabbitmq的基本配置
 spring:
   rabbitmq:
-    addresses: 192.168.18.128:5672
-    username: guest
-    password: guest
+    addresses: 172.31.119.63:5672
+    username: admin
+    password: admin@dev
     virtual-host: /
 ## 消费端配置
     listener:
@@ -11,9 +11,5 @@ spring:
         concurrency: 2 #消费者数量
         ## manual:手动 ack（确认）
         acknowledge-mode: manual
-        max-concurrency: 10
+        max-concurrency: 3
         prefetch: 1 #多个监听队列，能者多劳，
-server:
-  port: 8003
-  servlet:
-    context-path: /

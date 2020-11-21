@@ -23,7 +23,7 @@ public class WorkerReceiver {
     @RabbitHandler//如果有消息过来，在消费的时候调用这个方法
     public void onOrderMessage(@Payload String message, @Headers Map<String,Object> headers, Channel channel) throws IOException, InterruptedException {
         //消费者操作
-        System.out.println("WorkerReceiver订单ID1："+message);
+        System.out.println("WorkerReceiver1订单ID1："+message);
 
         /**
          * Delivery Tag 用来标识信道中投递的消息。RabbitMQ 推送消息给 Consumer 时，会附带一个 Delivery Tag，
@@ -37,7 +37,7 @@ public class WorkerReceiver {
          *  如果为 true，则额外将比第一个参数指定的 delivery tag 小的消息一并确认
          */
         boolean multiple = false;
-        Thread.sleep(1000);
+        //Thread.sleep(1000);
         //ACK,确认一条消息已经被消费
         channel.basicAck(deliveryTag,multiple);
         //channel.basicNack(deliveryTag,false,true);      //否认消息

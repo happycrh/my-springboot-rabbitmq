@@ -35,7 +35,7 @@ public class TController {
     }
     @GetMapping("/test3")
     public String t3() throws Exception {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 4; i++) {
             orderService.createOrderWorker(i);
         }
         return "ok";
