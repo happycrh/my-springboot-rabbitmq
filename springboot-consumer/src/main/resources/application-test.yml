@@ -10,6 +10,6 @@ spring:
       simple:
         concurrency: 2 #消费者数量
         ## manual:手动 ack（确认）
-        acknowledge-mode: manual
+        acknowledge-mode: none
         max-concurrency: 3
         prefetch: 1 #多个监听队列，能者多劳，

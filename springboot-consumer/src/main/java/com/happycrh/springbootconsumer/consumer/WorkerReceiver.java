@@ -39,8 +39,9 @@ public class WorkerReceiver {
         boolean multiple = false;
         //Thread.sleep(1000);
         //ACK,确认一条消息已经被消费
-        channel.basicAck(deliveryTag,multiple);
+        //channel.basicAck(deliveryTag,multiple);
         //channel.basicNack(deliveryTag,false,true);      //否认消息
         //channel.basicReject(deliveryTag,false);////拒绝消息
+        throw new RuntimeException();
     }
 }

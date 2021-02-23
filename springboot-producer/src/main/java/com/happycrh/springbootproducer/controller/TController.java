@@ -41,5 +41,12 @@ public class TController {
         return "ok";
     }
 
+    @GetMapping("/test4")
+    public String t4() throws Exception {
+        for (int i = 0; i < 4; i++) {
+            orderService.createOrderWorkerJSONObject(i);
+        }
+        return "ok";
+    }
 
 }
